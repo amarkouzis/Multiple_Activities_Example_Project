@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C5C4C3">
+
+    <LinearLayout
+        android:id="@+id/groupCentral"
+        android:layout_width="305dp"
+        android:layout_height="291dp"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        tools:visibility="invisible">
+
+        <Button
+            android:id="@+id/buttonVio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRegionSelection"
+            android:text="VIOTIA"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D"
+            android:background="@drawable/round_buttons"/>
+
+        <Button
+            android:id="@+id/buttonFth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRegionSelection"
+            android:text="FTHIOTIDA"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D"
+            android:background="@drawable/round_buttons"/>
+
+        <Button
+            android:id="@+id/buttonFok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRegionSelection"
+            android:text="FOKIDA"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D"
+            android:background="@drawable/round_buttons"/>
+
+        <Button
+            android:id="@+id/buttonEv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRegionSelection"
+            android:text="EVIA"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D"
+            android:background="@drawable/round_buttons"/>
+
+        <Button
+            android:id="@+id/buttonEyr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRegionSelection"
+            android:text="EYRITANIA"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D"
+            android:background="@drawable/round_buttons"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/groupCrete"
+        android:layout_width="305dp"
+        android:layout_height="291dp"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="invisible">
+
+        <Button
+            android:id="@+id/buttonCha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRegionSelection"
+            android:text="CHANIA"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D"
+            android:background="@drawable/round_buttons"/>
+
+        <Button
+            android:id="@+id/buttonRe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRegionSelection"
+            android:text="RETHYMNO"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D"
+            android:background="@drawable/round_buttons"/>
+
+        <Button
+            android:id="@+id/buttonHer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRegionSelection"
+            android:text="HERAKLION"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D"
+            android:background="@drawable/round_buttons"/>
+
+        <Button
+            android:id="@+id/buttonLas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRegionSelection"
+            android:text="LASITHI"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D"
+            android:background="@drawable/round_buttons"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/groupPeloponnisos"
+        android:layout_width="305dp"
+        android:layout_height="291dp"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="invisible">
+
+        <Button
+            android:id="@+id/buttonArg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRegionSelection"
+            android:text="ARGOLIDA"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D"
+            android:background="@drawable/round_buttons"/>
+
+        <Button
+            android:id="@+id/buttonArk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRegionSelection"
+            android:text="ARKADIA"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D"
+            android:background="@drawable/round_buttons"/>
+
+        <Button
+            android:id="@+id/buttonKor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRegionSelection"
+            android:text="KORINTHOS"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D"
+            android:background="@drawable/round_buttons" />
+
+        <Button
+            android:id="@+id/buttonLak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRegionSelection"
+            android:text="LAKONIA"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D"
+            android:background="@drawable/round_buttons" />
+
+        <Button
+            android:id="@+id/buttonMes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRegionSelection"
+            android:text="MESSINIA"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D"
+            android:background="@drawable/round_buttons"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/groupThrace"
+        android:layout_width="305dp"
+        android:layout_height="291dp"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="invisible">
+
+        <Button
+            android:id="@+id/buttonDra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRegionSelection"
+            android:text="DRAMA"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D"
+            android:background="@drawable/round_buttons"/>
+
+        <Button
+            android:id="@+id/buttonEvr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRegionSelection"
+            android:text="EVROS"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D"
+            android:background="@drawable/round_buttons"/>
+
+        <Button
+            android:id="@+id/buttonKav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRegionSelection"
+            android:text="KAVALA"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D"
+            android:background="@drawable/round_buttons" />
+
+        <Button
+            android:id="@+id/buttonXan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRegionSelection"
+            android:text="XANTHI"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D"
+            android:background="@drawable/round_buttons" />
+
+        <Button
+            android:id="@+id/buttonRod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRegionSelection"
+            android:text="RODOPI"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D"
+            android:background="@drawable/round_buttons"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/groupThessaly"
+        android:layout_width="305dp"
+        android:layout_height="291dp"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="invisible">
+
+        <Button
+            android:id="@+id/buttonKar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRegionSelection"
+            android:text="KARDITSA"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D"
+            android:background="@drawable/round_buttons"/>
+
+        <Button
+            android:id="@+id/buttonLar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRegionSelection"
+            android:text="LARISA"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D"
+            android:background="@drawable/round_buttons"/>
+
+        <Button
+            android:id="@+id/buttonMag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRegionSelection"
+            android:text="MAGNESIA"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D"
+            android:background="@drawable/round_buttons"/>
+
+        <Button
+            android:id="@+id/buttonTri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRegionSelection"
+            android:text="TRIKALA"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D"
+            android:background="@drawable/round_buttons"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/groupEpirus"
+        android:layout_width="305dp"
+        android:layout_height="291dp"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="invisible">
+
+        <Button
+            android:id="@+id/buttonArt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRegionSelection"
+            android:text="ARTA"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D"
+            android:background="@drawable/round_buttons"/>
+
+        <Button
+            android:id="@+id/buttonThp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRegionSelection"
+            android:text="THESPROTIA"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D"
+            android:background="@drawable/round_buttons"/>
+
+        <Button
+            android:id="@+id/buttonIo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRegionSelection"
+            android:text="IOANNINA"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D"
+            android:background="@drawable/round_buttons" />
+
+        <Button
+            android:id="@+id/buttonPre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRegionSelection"
+            android:text="PREVEZA"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D"
+            android:background="@drawable/round_buttons"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

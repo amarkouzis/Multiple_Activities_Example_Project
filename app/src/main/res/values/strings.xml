@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">A1MarkouzisAlexandros</string>
+    <string name="first_hint">Your First Name Here</string>
+    <string name="last_hint">Your Last Name Here</string>
+</resources>
