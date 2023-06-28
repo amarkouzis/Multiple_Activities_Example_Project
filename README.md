@@ -1,1 +1,1 @@
-# Multiple Activities Example Project
+# Multiple Activities and Intents Example Project
