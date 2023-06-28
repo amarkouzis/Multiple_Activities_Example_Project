@@ -5,4 +5,7 @@ ___
 
 In this project we see how the connection between multiple activities and the transfer of data between them can be achieved.
 
-## Design and develop from s
+## Design and develop from scratch
+___
+
+
