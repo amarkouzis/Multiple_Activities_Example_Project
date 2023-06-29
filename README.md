@@ -17,3 +17,6 @@ In this application we will see:
 The registration form is only intended to show how the edited data will remain after a configuration change.
 
 <img src="https://github.com/amarkouzis/Multiple_Activities_and_Intents_Example_Project/assets/115666194/c74e2af9-a5e6-4a77-b07f-e19f4e496582" alt="drawing" width="200"/> 
+<img src="https://github.com/amarkouzis/Multiple_Activities_and_Intents_Example_Project/assets/115666194/cb54b4dd-2edf-451b-9323-01813dafb470" alt="drawing" width="200"/> 
+<img src="https://github.com/amarkouzis/Multiple_Activities_and_Intents_Example_Project/assets/115666194/bc98a604-2105-46d0-8d15-0e9d11d7b496" alt="drawing" width="200"/> 
+<img src="https://github.com/amarkouzis/Multiple_Activities_and_Intents_Example_Project/assets/115666194/9858bb7b-0578-4c44-82f3-35190541f834" alt="drawing" width="200"/> 
